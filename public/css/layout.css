@@ -5,6 +5,39 @@ html, body {
     width: 100%;
 }
 
-nav.navbar {
-    top: 50px;
+/* Used for testing purposes */
+body {
+    height: 6000px;
+}
+
+/* Sponsors bar */
+#sponsors-bar {
+    background-color: var(--surmount-purple);
+    color: var(--surmount-white);
+    height: 3em;
+}
+#sponsors-bar span.vertical-center {
+    display: inline-block;
+    height: 100%;
+
+    /* Same as sponsors-bar height */
+    line-height: 3em;
+
+    vertical-align: middle;
+}
+
+/* Navbar */
+#nav-logo {
+    --width: 10em;
+
+    width: var(--width);
+    margin-left: calc(50% - calc(var(--width) / 2));
+    margin-right: auto;
+
+    transition: 0.6s;
+}
+#nav-logo.shrink {
+    width: 4em;
+
+    margin-left: 0;
 }
