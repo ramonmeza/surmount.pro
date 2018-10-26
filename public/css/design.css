@@ -1,0 +1,9 @@
+:root {
+    --surmount-black: rgba(30, 30, 30, 1.0);
+    --surmount-grey: rgba(59, 59, 59, 1.0);
+    --surmount-light-grey: rgba(62, 62, 62, 1.0);
+    --surmount-dark-purple: rgba(121, 111, 167, 1.0);
+    --surmount-purple: rgba(143, 120, 198, 1.0);
+    --surmount-light-purple: rgba(176, 166, 225, 1.0);
+    --surmount-white: rgba(221, 221, 221, 1.0);
+}
