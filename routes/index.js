@@ -5,8 +5,4 @@ router.get('/', function(req, res) {
     res.render('index');
 });
 
-router.get('*', function(req, res) {
-    res.send('404');
-});
-
 module.exports = router;

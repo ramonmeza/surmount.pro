@@ -13,6 +13,15 @@ app.use(parser.urlencoded({ extended: true }));
 var indexRoutes = require('./routes/index');
 app.use('/', indexRoutes);
 
+var teamsRoutes = require('./routes/teams');
+app.use('/teams', teamsRoutes);
+
+// 404 route
+app.get('*', function(req, res) {
+    res.send('404');
+});
+
+
 // Start server
 app.listen(3000, function() {
     console.log('App started...');
